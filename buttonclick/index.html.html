@@ -1,0 +1,22 @@
+<!-- // Change text on button click -->
+<!-- // 1) When you click a button, change the text inside a <p> tag. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Text Example</title>
+  </head>
+  <body>
+    <p id="myPara">This is the original text.</p>
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+      function changeText() {
+        document.getElementById("myPara").innerText =
+          "The text has been changed!";
+      }
+    </script>
+  </body>
+</html>
